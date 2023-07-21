@@ -3,4 +3,4 @@
 
 npm run lintUi
 npm run formatUi
-npm run formatPython
+# npm run formatPython
