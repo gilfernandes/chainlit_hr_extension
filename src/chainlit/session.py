@@ -34,6 +34,8 @@ class Session:
         agent: Any = None,
         # Optional llama instance
         llama_instance: Any = None,
+        # Environments
+        environ: Any = None
     ):
         self.socket_id = socket_id
         self.ask_user = ask_user
@@ -46,6 +48,7 @@ class Session:
         self.should_stop = False
         self.restored = False
         self.id = token_urlsafe()
+        self.environ = environ
 
         sessions_id[self.id] = self
         sessions_sid[socket_id] = self

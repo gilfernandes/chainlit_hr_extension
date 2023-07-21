@@ -88,6 +88,7 @@ async def connect(sid, environ, auth):
         auth_client=auth_client,
         db_client=db_client,
         user_env=user_env,
+        environ=environ
     )
 
     await socket.emit("session", data={"sessionId": session.id}, to=sid)

@@ -78,3 +78,15 @@ For detailed information on how to contribute, see [here](.github/CONTRIBUTING.m
 
 ## License
 Chainlit is open-source and licensed under the [Apache 2.0](LICENSE) license.
+
+## Build
+
+Make sure to install npm and poetry.
+
+Then run on the root folder:
+
+```
+npm run build
+```
+
+The output should be in your src/dist folder

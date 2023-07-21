@@ -9,7 +9,7 @@
     "test": "jest",
     "preview": "vite preview",
     "lint": "eslint ./src --ext .ts,.tsx",
-    "format": "prettier --config .prettierrc 'src/**/*.{ts,tsx}' --write"
+    "format": "prettier --config .prettierrc src/**/*.{ts,tsx} --write"
   },
   "dependencies": {
     "@auth0/auth0-react": "^2.0.1",
@@ -66,7 +66,7 @@
     "jest-environment-jsdom": "^29.5.0",
     "prettier": "^2.8.8",
     "typescript": "^4.9.3",
-    "vite": "^4.3.9",
+    "vite": "^4.4.4",
     "vite-tsconfig-paths": "^4.2.0"
   }
 }
